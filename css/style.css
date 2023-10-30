@@ -16,9 +16,46 @@
     src: url("../fonts/Poppins-Light.ttf");
 }
 
-h1 {
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    font-family: "Poppins";
+}
+
+header {
+    column-count: 3;
+    /* column-gap: 30px; */
+    text-align: center;
+    padding: 0;
+    line-height: 72px;
+    margin: 45px 0 200px 0;
+}
+
+.column {    
+    column-count: 2;
+    /* column-gap: 30px; */
+}
+
+.logo {
     font-family: "Poppins";
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
+    color: #0E0578;
+    padding-left: 75px;
 }
+
+h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2000E7;
+}
+
+header * h2 {
+    color: #686565;
+}
+
