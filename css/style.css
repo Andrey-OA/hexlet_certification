@@ -59,3 +59,13 @@ header * h2 {
     color: #686565;
 }
 
+.photo {
+    width: 564px;
+    height: 564px;
+    border-radius: 0px 0px 0px 191px;
+    background-image: url('../assets/photo.jfif');
+    box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50);
+    background-position: center;
+}
+
+/* отцентровать бэкграунд */
