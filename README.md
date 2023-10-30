@@ -1,4 +1,2 @@
 # hexlet_certification
-1st html certification on hexlet 11.23
-
-Testing push command
+1st html certification on hexlet. November 2023
