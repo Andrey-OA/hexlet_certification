@@ -7,11 +7,18 @@
 @font-face {
     font-weight: 700;
     font-family: "Poppins";
-    src: url("../fonts/Poppins-SemiBold.ttf");
+    src: url("../fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
     font-weight: 300;
     font-family: "Poppins";
     src: url("../fonts/Poppins-Light.ttf");
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
 }
