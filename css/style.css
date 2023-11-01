@@ -25,12 +25,6 @@ header, main {
     font-family: "Poppins";
 }
 
-/* header {
-    padding: 0;
-    line-height: 72px;
-    display: flex;
-} */
-
 .header {
     display: flex;
     justify-content: space-between; 
@@ -75,7 +69,7 @@ main {
     margin: 0px 0px 0px 75px;
     column-count: 2;
     column-gap: 5vw;
-    column-width: 620px;
+    column-width: 570px;
     text-align: left;
 }
 
