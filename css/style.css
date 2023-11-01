@@ -21,11 +21,6 @@
     padding: 0;
   }
   
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-}
-
 header, main {
     font-family: "Poppins";
 }
@@ -73,6 +68,38 @@ header, main {
     color: #686565;
   }
 
+main {
+    margin: 200px 0;
+}
+
+.about_me {
+    margin: 0px 0px 0px 75px;
+    column-count: 2;
+    column-gap: 250px;
+    text-align: left;
+}
+
+.about_me p {
+    color: #383838;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    color: #2000E7;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+
 h2 {
     font-family: Poppins;
     font-size: 30px;
@@ -80,6 +107,9 @@ h2 {
     color: #2000E7;
 }
 
+#color_yellow {
+    color: #F2BD00;
+}
 
 .photo {
     width: 564px;
@@ -88,8 +118,24 @@ h2 {
     background-image: url('../assets/photo.jfif');
     box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50);
     background-position: center;
+    break-inside: avoid;
 }
-
+/* Разбить стили по цветам */
+button {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-style: none;
+    background: #2000E7;
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+    width: 246px;
+    height: 72px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 
