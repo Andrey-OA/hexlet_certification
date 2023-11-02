@@ -65,7 +65,7 @@ main {
     margin: 200px 0;
 }
 
-.about_me {
+.welcome {
     margin: 0px 0px 0px 75px;
     column-count: 2;
     column-gap: 5vw;
@@ -73,7 +73,7 @@ main {
     text-align: left;
 }
 
-.about_me p {
+p {
     color: #383838;
     font-family: Poppins;
     font-size: 24px;
@@ -103,6 +103,7 @@ h2 {
 
 #color_yellow {
     color: #F2BD00;
+    display: inline;
 }
 
 .photo_container {
@@ -120,7 +121,6 @@ h2 {
     background-position: center;
 }
 
-/* Разбить стили по цветам */
 button {
     box-sizing: border-box;
     border-radius: 10px;
@@ -133,6 +133,8 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 .button_blue {
@@ -144,8 +146,38 @@ button {
     background: #f6f5fd;
     border: 2px solid #2000E7;
     color: #2000E7;
+    margin-left: 75px;
 }
 
+.about_me {
+    margin-top: 160px;
+    width: 100%;
+    height: 910px;
+    background: rgba(67, 186, 253, 0.06);
+    background-image: url(../assets/juggler.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    background-position: right;
+    padding-top: 200px;
+    padding-left: 75px;
+}
+
+.about_me h1 {
+    letter-spacing: 16.8px;
+}
+
+.about_me div {
+    width: 415px;
+}
+
+.about_me p{
+    color: #000;
+}
+
+.about_me button {
+    margin-left:  20px;
+}
 
 .column-4 {    
     column-count: 4;
