@@ -20,6 +20,15 @@
     margin: 0;
     padding: 0;
   }
+
+.bg_blue {
+    background: #43BAFD0F;
+}
+
+.bg_yellow {
+    background: #FFD69633;
+}
+
   
 header, main {
     font-family: "Poppins";
@@ -73,6 +82,7 @@ main {
     text-align: left;
 }
 
+
 p {
     color: #383838;
     font-family: Poppins;
@@ -91,7 +101,6 @@ h1 {
     line-height: normal;
     margin-top: 5px;
     margin-bottom: 20px;
-    width: 450px;
 }
 
 h2 {
@@ -153,7 +162,6 @@ button {
     margin-top: 160px;
     width: 100%;
     height: 910px;
-    background: rgba(67, 186, 253, 0.06);
     background-image: url(../assets/juggler.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -179,14 +187,46 @@ button {
     margin-left:  20px;
 }
 
-.column-4 {    
-    column-count: 4;
-    /* column-width: auto; */
-    /* column-gap: 30px; */
+.my_projects {
+    margin-top: 300px;
+    width: 100%;
+    height: 910px;
+    padding-top: 35px;
 }
+
+.my_projects h1 {
+    letter-spacing: 9.6px;
+    text-align: center;
+}
+
+.my_projects p {
+color: #000000;
+text-align: center;
+}
+
+.img {
+    border-radius: 6px;
+    width: 246px;
+    height: 180px;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#no_margin {
+    margin: 0;
+}
+
+
+
 
 .column-3 {    
     column-count: 3;
+    margin-top: 50px;
     /* column-width: auto; */
     /* column-gap: 30px; */
 }
@@ -197,3 +237,8 @@ button {
     /* column-gap: 30px; */
 }
 
+.column-4 {    
+    column-count: 4;
+    /* column-width: auto; */
+    /* column-gap: 30px; */
+}
