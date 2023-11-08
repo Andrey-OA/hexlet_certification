@@ -16,6 +16,24 @@
     src: url("../fonts/Poppins-Light.ttf");
 }
 
+@font-face {
+    font-weight: 400;
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: "Jost";
+    src: url("../fonts/Jost-Light.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -58,10 +76,6 @@ header, main {
     width: 60vw;
   }
   
-.header .menu ul li {
-    margin: 0px 0px;
-}
-
 .header .menu ul a {
     text-decoration: none;
     font-family: Poppins;
@@ -85,7 +99,7 @@ main {
 
 p {
     color: #383838;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -94,7 +108,7 @@ p {
 
 h1 {
     color: #2000E7;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -104,7 +118,7 @@ h1 {
 }
 
 h2 {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 400;
     color: #2000E7;
@@ -136,7 +150,7 @@ button {
     box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
     width: 246px;
     height: 72px;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -159,8 +173,6 @@ button {
 
 .about_me {
     margin-top: 160px;
-    width: 100%;
-    height: 910px;
     background-image: url(../assets/juggler.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -168,6 +180,7 @@ button {
     background-position: right;
     padding-top: 200px;
     padding-left: 75px;
+    padding-bottom: 200px;
 }
 
 .about_me h1 {
@@ -247,13 +260,13 @@ letter-spacing: 17.28px;
 text-align: center;
 }
 
-form {
+.contact_form {
     margin-left: 66px;
     margin-top: 159px;
     padding-bottom: 190px;
 }
 
-form * {
+.contact_form * {
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
     width: 653px;
@@ -270,7 +283,7 @@ form * {
     line-height: normal;
 }
 
-textarea {
+#Message {
     width: 653px;
     height: 265px;
     resize: none;
@@ -307,8 +320,107 @@ textarea {
     padding: 0;
 }
 
+footer {
+    padding-top: 132px;
+}
+
+footer .logo {
+    letter-spacing: 16.8px;
+}
+
+footer input {
+    width: 323px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    border-style: none;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 33px;
+}
+
+footer ::placeholder {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+footer button {
+    width: 178px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F965FC;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: -70px;
+    margin-top: 0;
+}
+
+.footer_form {
+    margin: 50px 0 0 30px;
+}
+
+.column {
+    width: 570px;
+    display: inline-block;
+    vertical-align: top;
+}
 
 
+.column-300 {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer ul {
+    list-style: none;
+  }
+
+h3 {
+    color: #000;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+footer li {
+    color: #000;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.line {
+    margin: 100px 5% 80px 5%;
+    width: 90%;
+    border-style: solid;
+    border-bottom: #000 ;
+}
+
+.copyright {
+    color: #000;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 46px;
+}
 
 .column-2 {    
     column-count: 2;
