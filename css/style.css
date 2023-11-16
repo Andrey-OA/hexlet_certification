@@ -339,6 +339,7 @@ footer button {
   font-weight: 700;
   margin-left: -70px;
   margin-top: 0;
+  box-shadow: none;
 }
 
 .footer_form {
