@@ -124,7 +124,7 @@ h2 {
   width: 564px;
   height: 564px;
   border-radius: 0px 0px 0px 191px;
-  background-image: url("../assets/photo.jfif");
+  background-image: url("../images/pictures/photo.jfif");
   box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.5);
   background-position: center;
 }
@@ -155,7 +155,7 @@ button {
 
 .about_me {
   margin-top: 160px;
-  background-image: url(../assets/juggler.png);
+  background-image: url(../images/pictures/juggler.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-origin: border-box;
@@ -224,7 +224,7 @@ button {
   margin-top: 272px;
   padding-top: 67px;
   width: 100%;
-  background-image: url(../assets/designer.png);
+  background-image: url(../images/pictures/designer.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-origin: border-box;
@@ -413,17 +413,17 @@ footer li {
 }
 
 .youtube {
-  background-image: url(../assets/Youtube.png);
+  background-image: url(../images/pictures/Youtube.png);
 }
 
 .insta {
-  background-image: url(../assets/inst.png);
+  background-image: url(../images/pictures/inst.png);
 }
 
 .fb {
-  background-image: url(../assets/fb.png);
+  background-image: url(../images/pictures/fb.png);
 }
 
 .linkedin {
-  background-image: url(../assets/ln.png);
+  background-image: url(../images/pictures/ln.png);
 }
